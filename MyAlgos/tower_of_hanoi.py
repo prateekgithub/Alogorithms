@@ -6,4 +6,5 @@ def tower_of_hanoi(numOfDisks, startPeg=1, endPeg=3):
         print("Move disk %d from peg %d to peg %d"%(numOfDisks, startPeg, endPeg))
         tower_of_hanoi(numOfDisks-1, 6-startPeg-endPeg, endPeg)
 
-tower_of_hanoi(numOfDisks=4)
+n = input("Enter number of disks: ")
+tower_of_hanoi(numOfDisks=n)

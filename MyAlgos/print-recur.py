@@ -7,4 +7,5 @@ def print_recur(n):
     print n
     return print_recur(n-1)
 
-print(print_recur(4))
+n = input("Enter length of recursion: ")
+print(print_recur(n))

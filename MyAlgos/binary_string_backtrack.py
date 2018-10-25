@@ -11,4 +11,5 @@ def bit_strings(n):
     else:
         return (append_at_beginning_front("0", bit_strings(n-1)) + append_at_beginning_front("1", bit_strings(n-1)))
 
-print(bit_strings(2))
+n = input("Enter length of binary string: ")
+print(bit_strings(n))
