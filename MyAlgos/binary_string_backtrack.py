@@ -9,7 +9,8 @@ def bit_strings(n):
     if n == 1:
         return ["0","1"]
     else:
-        return (append_at_beginning_front("0", bit_strings(n-1)) + append_at_beginning_front("1", bit_strings(n-1)))
+        return (append_at_beginning_front("0", bit_strings(n-1)) 
+            + append_at_beginning_front("1", bit_strings(n-1)))
 
 n = input("Enter length of binary string: ")
 print(bit_strings(n))
