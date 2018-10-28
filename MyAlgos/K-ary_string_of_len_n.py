@@ -11,5 +11,6 @@ def base_k_strings(n, k):
     if n == 1: return range_to_list(k)
     return [digit + bit_string for digit in base_k_strings(1,k)
         for bit_string in base_k_strings(n-1,k)]
-
-print(base_k_strings(4,3))
+k = input("Enter Base of Number System(k): ")
+n = input("Enter length of string(n): ")
+print(base_k_strings(n,k))
