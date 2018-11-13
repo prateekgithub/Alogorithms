@@ -1,11 +1,12 @@
 #!python
 
 vowels = ['a','e','i','o','u']
-word = input("Provide a word")
+word = input("Provide a word to search for vowels: ")
 found = []
 for letter in word:
     if letter in vowels:
         if not letter in found:
             found.append(letter)
 
-print (found)
+for vowel in found:
+    print(vowel)
