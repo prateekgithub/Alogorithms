@@ -9,7 +9,7 @@ def hello() -> str:
     return 'Hello world from flask'
 
 @app.route('/search4')
-def do_search() -> set:
-    return search4letters(“life, the universe, and everything”, 'eiru,!')
+def do_search() -> str:
+    return str(search4letters("life, the universe, and everything", 'eiru,!'))
 
 app.run()
