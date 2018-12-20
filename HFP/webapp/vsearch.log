@@ -1,0 +1,2 @@
+Request is: <Request 'http://127.0.0.1:5000/search4' [POST]> Results are: {'e', 'i'}
+Request is: <Request 'http://127.0.0.1:5000/search4' [POST]> Results are: {'i', 'a', 'e'}
