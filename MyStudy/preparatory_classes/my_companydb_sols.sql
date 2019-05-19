@@ -265,6 +265,15 @@ order by d.dname;
 
 -- Inner join between employee and dependent
 
+select e.ssn, e.fname, d.dependent_name
+from employee e inner join dependent d on e.ssn = d.essn;
+
 -- Left Outer join between employee and dependent
 
+select e.ssn, e.fname, d.dependent_name
+from employee e left join dependent d on e.ssn = d.essn;
+
 -- Right out joint between dependent and employee
+
+select e.ssn, e.fname, d.dependent_name
+from employee e right join dependent d on e.ssn = d.essn;
