@@ -1,0 +1,37 @@
+
+
+Loan Provider Factors -
+Median of funded amount is higher for current loan than fully paid loan or charged off loan.
+Loans are not given for DTI more than 30.
+Also very less loans are provided for DTI higher than 25.
+
+
+Loan Consumer Factors -
+People living in rent or mortgage tend to take more loans.
+Percentage of people who are living in rent have highest defaults. After that people with mortgage and least are people with own house or others.
+Number of default is more in small business.
+
+Maximum number of loans is taken from California.
+Also highest default rate is from CA.
+As funding amount increases above 20K risk of default increases.
+
+
+Loan Consumer Behavior Factors -
+Frequency of people getting loans is higher for higher grade. Also people with better grades have lower defaults.
+People with 0 or 10+ years of experience take more number of loans
+Within defaulters people with 0 or 10+ years experience tends to default more.
+Default rate is highest in loan for the purpose of debt-consolidation.
+Maximum loans are availed by people with income below 100,000.
+As the income increase default rates are coming down.
+More number of people have taken loan with less term of 36 month.
+Higher defaulters are found in long term loan of 60 months.
+
+
+
+
+
+
+
+
+
+
